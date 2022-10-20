@@ -1,0 +1,44 @@
+[
+    {
+      "precio": 4500,
+      "nproducto": "Producto N°1",
+      "id": 1,
+      "title": "Dolce Gusto Intenso",
+      "thumbnailUrl": "https://cdn.shopify.com/s/files/1/0031/6633/9136/products/Displays-600x600px-Espresso-Intenso_800x.jpg?v=1662658822"
+    },
+    {
+      "precio": 1200,
+      "nproducto": "Producto N°2",
+      "id": 2,
+      "title": "Pre Pizza Masa Clasica - Oferta 2x1 ",
+      "thumbnailUrl": "https://jumbo.vtexassets.com/arquivos/ids/397293/Pre-pizza-clasica-2-un-500-g.jpg?v=637469303820600000"
+    },
+    {
+      "precio": 700,
+      "nproducto": "Producto N°3",
+      "id": 3,
+      "title": "Agua Mineral Cachantun Clasica",
+      "thumbnailUrl": "https://jumbo.vtexassets.com/arquivos/ids/484347/Agua-mineral-con-gas-500-ml.jpg?v=637886578038730000"
+    },
+    {
+      "precio": 800,
+      "nproducto": "Producto N°4",
+      "id": 4,
+      "title": "Salsa de Tomates Lucchetti",
+      "thumbnailUrl": "https://s.cornershopapp.com/product-images/344069.jpg?versionId=KYngKBktfzadeXdlQK1Zw.wLDefFL5d6"
+    },
+    {
+      "precio": 1099,
+      "nproducto": "Producto N°5",
+      "id": 5,
+      "title": "Tallarines N° 87 Carozzi",
+      "thumbnailUrl": "https://jumbo.vtexassets.com/arquivos/ids/453117/Tallarines-N%C2%B0-87-bolsa-400-g.jpg?v=637662990080300000"
+    },
+    {
+      "precio": 3000,
+      "nproducto": "Producto N°6",
+      "id": 6,
+      "title": "Six Pack Pilsener Balticas",
+      "thumbnailUrl": "https://s.cornershopapp.com/product-images/780213000012_CL.jpg"
+    }
+  ]

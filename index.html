@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Carrito Virtual 🛒</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center display-5 text-danger fw-bold p-5">Mini-Market Don Jaime 🛒</h1>
+        <br>
+
+        <div id="contenedor-Productos" class="row"></div>
+
+        <div class="my-5">
+          <h4 class="display-6 text-danger fw-bold text-center p-3">Carro de Compras 🛒⭐😎⭐</h4>
+          <table class="table text-center fw-bold text-white bg-dark fs-4">
+            <thead>
+              <tr>
+                <th scope="col">N° Prod.</th>
+                <th scope="col">Producto</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Agregar-Eliminar</th>
+                <th scope="col">Total</th>
+              </tr>
+            </thead>
+            <tbody id="items"></tbody>
+            <tfoot>
+              <tr id="footer-carrito">
+                <th scope="row" colspan="5">Carro Vacío 😭 - Comience a Comprar 🤑!!</th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+
+    </div>
+
+    <template id="template-footer">
+        <th scope="row" colspan="2">Total de Productos 🤩</th>
+        <td>10</td>
+        <td>
+            <button class="btn btn-danger btn-sm border-warning border border-2 fs-6 fw-bold" id="vaciar-carrito">
+                Vaciar Carro 😭
+            </button>
+        </td>
+        <td class="font-weight-bold text-danger">$ <span>5000</span></td>
+    </template>
+    
+    <template id="template-carrito">
+      <tr>
+        <th scope="row">id</th>
+        <td>Café</td>
+        <td>1</td>
+        <td>
+            <button class="btn btn-success btn-sm border-warning border border-2 fs-6 fw-bol ">
+                +
+            </button>
+            <button class="btn btn-danger btn-sm border-warning border border-2 fs-6 fw-bold">
+                -
+            </button>
+        </td>
+        <td>$ <span>500</span></td>
+      </tr>
+    </template>
+
+    <template id="template-Productos">
+        <div class="col-12 col-md-4 mb-3 text-center">
+            <div class="card border border-primary border border-3">
+                <h6 class="text-center text-warning bg-dark p-3 fs-4 fw-bold"></h6>
+                <img src="" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Café</h5>
+                  <p class="card-text display-6 text-white bg-dark border border-4 border-danger rounded">$
+                    <span>5000</span>
+                  </p>
+                  <button class="btn btn-success border-warning border border-3 rounded-pill">Agregar al Carro 🛒</button>
+                </div>
+            </div>
+        </div>
+    </template>
+    
+    
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
